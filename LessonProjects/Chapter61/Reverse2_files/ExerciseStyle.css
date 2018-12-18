@@ -1,0 +1,144 @@
+body
+{
+background-color:#fcf7ff;
+font-family:arial,helvetica,sans-serif; 
+max-width:1200px;  /* might not be a good idea.  Seems to help on really wide monitors, though */
+font-size:100%;
+padding: 15px 15px 15px 15px;
+margin: 0 auto 0 auto;
+border: 2px solid  #a030a0;
+}
+
+p
+{
+margin-left: 0.5em;
+margin-right: 0.5em;
+}
+
+ol
+{
+margin-left:1.5cm;
+}
+
+ul
+{
+margin-left:1.5cm;
+}
+
+.revisions
+{
+font-size:70%;
+}
+
+.blue
+{
+color:blue;
+}
+
+.red
+{
+color:red;
+}
+
+.green
+{
+color:green;
+}
+
+.answer h3
+{
+color:blue;
+}
+
+h1
+{
+color:darkblue;
+text-align:center;
+margin-left: 0.5em;
+}
+
+h2
+{
+color:darkblue;
+margin-left: 0.5em;
+}
+
+hr
+{
+color:darkblue;
+}
+
+pre 
+{
+margin-left:1cm;
+font-family:ourier-new,monospace;
+font-size:1em;
+}
+
+pre.code
+{
+margin-left:1cm;
+font-family:courier-new,monospace;  
+font-size:1em;
+}
+
+pre.program
+{
+width:auto;
+margin-left:1cm;
+margin-right:1cm;
+padding:0.5cm;
+border-style:double;
+border-color:darkblue;
+background-color:white;
+font-family:courier-new,monospace; 
+font-size:90%;
+}
+
+
+code
+{
+font-family:lucida-console,courier-new,monospace; 
+font-size:125%;
+color: darkblue;
+}
+
+table 
+{
+background-color: white;
+border: 2px;
+border-color: green;  
+border-style: solid;
+border-collapse: collapse;
+margin: 1.0em 1.0em 1.0em 1.0em;
+font-family:"Lucida Console","Courier New",courier,FreeMono,monospace;   /* FreeMono for Linux */
+}
+
+tr.headings
+{
+background-color:#eaeaf5;
+}
+
+th.headings
+{
+background-color:#eaeaf5;
+}
+
+th, td
+{
+border: 1px; 
+border-style: dotted;
+border-color: green; 
+padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+table pre
+{
+margin-left:0.4cm;
+margin-right:0.4cm;
+}
+
+a:link     { color:blue }
+a:visited  { color:brown }
+a:active   { color:red }
+a:hover    { color:red }
